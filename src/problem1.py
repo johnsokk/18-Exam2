@@ -2,8 +2,8 @@
 Exam 2, problem 1.
 
 Authors: David Mutchler, Dave Fisher, Matt Boutell, their colleagues,
-         and PUT_YOUR_NAME_HERE.  October 2018.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Kaia Johnson.  October 2018.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import time
 import testing_helper
@@ -209,7 +209,7 @@ def problem1a(strings):
      
      If the given sequence of strings is [] (i.e, the empty list),
      then this function returns []
-     
+
      If the given sequence of strings is ['']
      then this function returns [0]
  
@@ -217,6 +217,30 @@ def problem1a(strings):
       :type strings: list of str
       :rtype: list of int
     """
+
+    self.word = word
+    num = len(self.word)
+        for k in range (num)
+
+
+    self.volume = volume
+    if len(contents) <= self.volume:
+        self.contents = contents
+    else:
+        self.contents = ''
+    self.originalcontents = contents
+
+
+    self.volume = new_volume
+    num = len(self.contents) - self.volume
+    container = ''
+    if self.volume < len(self.contents):
+        for k in range(num):
+            container = container + self.contents[self.volume + k]
+        self.contents = ''
+        for k in range(self.volume):
+            self.contents += self.originalcontents[k]
+    return container
     # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).

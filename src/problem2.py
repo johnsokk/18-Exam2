@@ -2,8 +2,8 @@
 Exam 2, problem 2.
 
 Authors: Dave Fisher, David Mutchler, Matt Boutell, their colleagues,
-         and PUT_YOUR_NAME_HERE.  October 2018.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Kaia Johnson.  October 2018.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
 import time
@@ -195,6 +195,16 @@ def problem2a(triangle):
       :type triangle: Triangle
       :rtype: Triangle
     """
+
+    self.triangle = Triangle
+    self.a = a
+    self.b = b
+    self.c = c
+    lengths = self.a + self.b + self.c
+    new_triangle = 2*(self.a + self.b + self.c)
+    return new_triangle
+
+
     # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
